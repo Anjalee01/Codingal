@@ -1,5 +1,10 @@
 import turtle
 
+
+my_turtle = turtle.Turtle()
+
+
+
 # creating canvas
 turtle.Screen().bgcolor("Orange")
 

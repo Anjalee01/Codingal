@@ -3,12 +3,16 @@
   <head>
   </head>
   <body>
-    <button onclick="myfunction()">Execute JS function</button>
+    <button onclick="myfunction(10)">Execute JS function</button>
   
     <script>
-      function myfunction()
+      function myfunction(x,y)
       {
-        document.write("Function is called");
+        if (y == undefined){
+          y = 2;
+        
+        }
+        document.write(x*y);
       }
     </script>
    </body>
