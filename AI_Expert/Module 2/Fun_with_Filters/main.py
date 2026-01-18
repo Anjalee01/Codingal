@@ -37,7 +37,7 @@ def apply_color_filter(image, filter_type):
 
 
 # Load the image
-image_path = 'example.jpg'  # Provide your image path
+image_path = 'Module 2/Fun_with_Filters/example.jpg'  # Provide your image path
 image = cv2.imread(image_path)
 
 if image is None:
