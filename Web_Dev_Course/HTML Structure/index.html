@@ -1,19 +1,33 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    
-    <title>HTML Structure</title>
-    
-  </head>
-	
-  <body>
-      This is my weppage <br>This is my weppage
 
-	  <p> Lorem ipsum <sub>dolor</sub> sit amet consectetur, adipisicing elit. Consectetur ipsa earum libero distinctio itaque assumenda, magni minus tenetur excepturi quis iste quae laudantium quia. Numquam quos non eveniet possimus. A.</p>
+<head>
+    <title>Methods in Array</title>
+</head>
 
-	<h1> My heading</h1>
-	<h2>My second heading</h2>
+<body>
+    <p>Array in JavaScript</p>
+    <p id="demo"></p>
+    <p id="demo2"></p>
 
-  </body>
-	
+    <script>
+        var fruits = ["Banana", "Orange", "Apple", "Mango"];
+        document.getElementById("demo").innerHTML = fruits.join("* ");
+
+        document.getElementById("demo2").innerHTML = fruits;
+        fruits.pop();
+        document.getElementById("demo2").innerHTML = fruits;
+    </script>
+
+    <style>
+        body {
+            background-color: rgb(68, 0, 255);
+        }
+
+        p {
+            color: rgb(122, 77, 77);
+        }
+    </style>
+</body>
+
 </html>
